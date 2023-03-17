@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript navigation component with menus and content</title>
+    <!--Add css file-->
+    <link rel="stylesheet" href="styles/styles.css" type="text/css" />
+    <link href="theme/prism.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="parent">
+        <div class="wrapper">
+          <div class="navigation" id="navigation">
+            <button id="profile">profile</button>
+            <button id="settings">settings</button>
+            <button id="options">options</button>
+          </div>
+          <div class="content" id="content">
+            <!--Add id to paragraph elements-->
+          </div>
+        </div>
+        <div id="colors">
+          <span class="color dimgrey" id="color" accesskey="dimgrey"></span>
+          <span class="color darkgrey" id="color" accesskey="darkgrey"></span>
+          <span class="color gray" id="color" accesskey="gray"></span>
+          <span class="color teal" id="color" accesskey="teal"></span>
+          <span class="color green" id="color" accesskey="green"></span>
+          <span class="color lime" id="color" accesskey="lime"></span>
+          <span class="color red" id="color" accesskey="red"></span>
+          <span class="color orange" id="color" accesskey="orange"></span>
+          <span class="color yellow" id="color" accesskey="burlywood"></span>
+          <span class="color violet" id="color" accesskey="violet"></span>
+          <span class="color brown" id="color" accesskey="brown"></span>
+          <span class="color purple" id="color" accesskey="purple"></span>
+          <span class="color blue" id="color" accesskey="blue"></span>
+          <span class="color pink" id="color" accesskey="fuchsia"></span>
+        </div>
+      </div>
+      <div>
+        <h3>HTML/CSS</h3>
+        <div class="md-block">
+          <md-block src="md-block-html.md"></md-block>
+        </div>
+        <h3>Javascript</h3>
+        <div class="md-block">
+          <md-block src="md-block-js.md"></md-block>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts/index.js" async></script>
+    <script type="module" src="scripts/md.js"></script>
+    <script src="scripts/prism.js"></script>
+  </body>
+</html>
